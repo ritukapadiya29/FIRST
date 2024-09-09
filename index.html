@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            font-weight: 700;
+            font-family: 'Times New Roman', Times, serif;
+            height: 100%;
+            width: 100%;
+            text-align: center;
+        }
+        .first{
+            border: 1px solid black;
+            padding: 15px 0 15px 0;
+        }
+        .same{
+            padding: 10px 0 100px 0;
+            border: 1px solid black;
+            width: 600px;
+        }
+
+        .side aside{
+            padding: 10px 0 235px 0;
+            border: 1px solid black;
+            width: 600px;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <header class="first" style="background-color: #ea3323;">This is Header Area</header>
+    </div>
+    <div>
+        <nav class="first" style="background-color: #f2a93b;">Navbar Area</nav>
+    </div>
+    <div class="side" style="display: flex;">
+        <div class="rich">
+            <div>
+                <section class="same" style="background-color: #f7ebd9;">Section Area</section>
+            </div>
+            <div>
+                <article class="same" style="background-color: #f1f8fe;">Article Area</article>
+            </div>
+        </div>
+        <div>
+            <aside style="background-color: #f1dfb8;">Aside Area</aside>
+        </div>
+    </div>
+    <div>
+        <footer class="first" style="background-color: black;color: white;">Footer Area</footer>
+    </div>
+</body>
+
+</html>
